@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rose"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:id="@+id/btn_getRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/adapter_margin"
+        android:layout_marginTop="@dimen/adapter_margin"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="@dimen/adapter_margin"
+        android:text="@string/getRecipes"
+        android:textAllCaps="false" />
+
+    <ListView
+        android:id="@+id/lstV_recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/adapter_margin"></ListView>
+
+</LinearLayout>

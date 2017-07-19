@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_recipe_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.education.bakingapp.views.activity.RecipeDetailsActivity">
+
+    <FrameLayout
+        android:id="@+id/recipeDetails_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"></FrameLayout>
+
+    <View
+        android:layout_width="@dimen/adapter_elevation"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/adapter_margin"
+        android:layout_marginRight="@dimen/adapter_margin"
+        android:background="@color/grey_dark"></View>
+
+    <FrameLayout
+        android:id="@+id/ingredientStep_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"></FrameLayout>
+
+</LinearLayout>

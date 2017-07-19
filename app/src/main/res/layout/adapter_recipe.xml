@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/adapter_height"
+    android:layout_marginLeft="@dimen/adapter_margin"
+    android:layout_marginRight="@dimen/adapter_margin"
+    android:layout_marginTop="@dimen/adapter_margin"
+    android:background="@drawable/border_recipe"
+    android:elevation="@dimen/adapter_elevation"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_recipe"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/adapter_margin" />
+</RelativeLayout>
